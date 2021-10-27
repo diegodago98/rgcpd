@@ -1,0 +1,50 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model **/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+    
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.registroposicion {
+    display: flex;
+    justify-content: center ;
+}
+
+
+select{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.descripcion textarea {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+img {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 12%;
+    height: 12%;
+}

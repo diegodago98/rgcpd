@@ -1,0 +1,57 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box; /* Hack para Box Model **/
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  
+body{
+    background-color: #DADADA;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;    
+}
+
+h1 {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    border-collapse:collapse;
+    
+}
+
+th {
+    padding: 1rem;
+
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+    width: 25rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+form fieldset {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+img {
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 12%;
+    height: 12%;
+}
+
