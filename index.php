@@ -23,7 +23,7 @@
                     <select name="opciones" id="">
 
                         <option value="Diego Suarez">Diego Suárez</option>
-                        <option value="Enol Muñiz">Enol Muñiz</option>
+                        <option value="Enol Muñiz">Juan Pérez</option>
 
                     </select>
                 </div>
@@ -50,11 +50,11 @@ if (isset($_POST['Enviar']))
             
             //Cadenas de conexion//
 
-            $server= "sslclarcat.mysql.database.azure.com";
-            $usuario= "azadmin@sslclarcat";
-            $pass= "Jup1t3r_3030";
-            $bbdd= "registro";
-            $ssl_cert= 'ssl/BaltimoreCyberTrustRoot.crt.pem';
+            $server= "host/ip";
+            $usuario= "usuario@servidor-bbdd";
+            $pass= "password_bbdd";
+            $bbdd= "basededatos";
+            $ssl_cert= 'ssl/certificado.pem';
     
 
             //--------------------------//

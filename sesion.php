@@ -13,7 +13,7 @@
 
 </head>
 <body>
-    <img src="img/Clarcat_logotipo_naranja_negro.png" alt="">
+    <img src="#" alt="">
     <h1>Ha iniciado sesión como <?php
             session_start();
             $id = $_SESSION["username"];
@@ -25,11 +25,11 @@
             //Cadenas de conexion//
             
             
-            $server= "sslclarcat.mysql.database.azure.com";
-            $usuario= "azadmin@sslclarcat";
-            $pass= "Jup1t3r_3030";
-            $bbdd= "registro";
-            $ssl_cert= 'ssl/BaltimoreCyberTrustRoot.crt.pem';
+            $server= "host/ip";
+            $usuario= "usuario@servidor-bbdd";
+            $pass= "password_bbdd";
+            $bbdd= "basededatos";
+            $ssl_cert= 'ssl/certificado.pem';
             
             
             //--------------------------------------//
