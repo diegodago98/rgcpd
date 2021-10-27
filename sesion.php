@@ -13,6 +13,9 @@
 
 </head>
 <body>
+
+    <!-- Inicio de sesión -->
+
     <img src="#" alt="">
     <h1>Ha iniciado sesión como <?php
             session_start();
@@ -52,6 +55,9 @@
 
     ?>
   </h1>
+
+            <!-- Tabla de los últimos registros -->
+
     <?php
             ini_set ('error_reporting', E_ALL);
             ini_set ('display_errors', '1');
@@ -104,6 +110,8 @@
               $mostrar->close();
           ?>
 
+            
+
           <form action="" method="POST" class="formulario">
               <fieldset>
                   <legend></legend>
@@ -116,6 +124,9 @@
           </form>
 </body>
 
+
+<!-- Desconexión y salida de la sala -->
+
 <?php
 if (isset($_POST['Desconectar']))
 	{
@@ -123,7 +134,7 @@ if (isset($_POST['Desconectar']))
 
 
 
-  //Salida CPD registrando la hora
+  
   
   
   ini_set ('error_reporting', E_ALL);
@@ -133,10 +144,7 @@ if (isset($_POST['Desconectar']))
   mysqli_options ($db, MYSQLI_OPT_SSL_VERIFY_SERVER_CERT, true);
   $db->ssl_set(NULL, NULL, $ssl_cert, NULL, NULL);
   $link = mysqli_real_connect ($db, $server , $usuario , $pass , $bbdd, 3306, MYSQLI_CLIENT_SSL);
-
-
-    //$db->query("UPDATE registro_diario set fecSalida=NOW() where Nombre = ''") or die ($db->error); //
-    
+  
     
     
     

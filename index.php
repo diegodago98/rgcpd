@@ -40,6 +40,10 @@
 </body>
 <?php
 
+
+  //** Inicio de sesión en la sala de servidores **//
+
+
 if (isset($_POST['Enviar']))
 {
     ini_set ('error_reporting', E_ALL);
